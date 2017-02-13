@@ -1086,7 +1086,7 @@ static void lcd_quick_feedback()
 {
     lcdDrawUpdate = 2;
     blocking_enc = millis() + 500;
-    lcd_implementation_quick_feedback();
+    //lcd_implementation_quick_feedback();
 }
 
 /** Menu action functions **/
